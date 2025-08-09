@@ -2,7 +2,7 @@
 
 A high-performance fine-tuning implementation using Unsloth for efficient Large Language Model adaptation. This project demonstrates fine-tuning LLaMA 3.2-3B-Instruct on the FineTome-100k dataset with optimized LoRA (Low-Rank Adaptation) techniques.
 
-## 🎯 Project Overview
+## Project Overview
 
 This repository provides:
 - **Ultra-fast Fine-tuning**: 2x faster training using Unsloth optimizations
@@ -11,7 +11,7 @@ This repository provides:
 - **Chat Template Support**: Proper formatting for instruction-following models
 - **Automated Training**: Streamlined process with minimal configuration
 
-## 🚀 Key Features
+## Key Features
 
 - **Unsloth Integration**: Leverages Unsloth's optimized kernels for faster training
 - **4-bit Quantization**: Efficient training on consumer GPUs (Tesla T4 compatible)
@@ -20,7 +20,7 @@ This repository provides:
 - **Mixed Precision Training**: FP16/BF16 support for optimal performance
 - **Easy Inference**: Simple model loading and text generation pipeline
 
-## 📋 Requirements
+## Requirements
 
 ```bash
 # Core dependencies
@@ -32,7 +32,7 @@ pip install unsloth transformers trl datasets torch
 - 8GB+ GPU memory for 3B model fine-tuning
 - Python 3.8+
 
-## 🔧 Installation
+##  Installation
 
 ### Google Colab (Recommended)
 ```bash
@@ -46,7 +46,7 @@ cd finetuning
 pip install -r requirements.txt
 ```
 
-## 🎮 Usage
+## Usage
 
 ### 1. Complete Training Pipeline
 
